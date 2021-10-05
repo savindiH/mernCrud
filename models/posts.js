@@ -12,7 +12,7 @@ const postSchema = new mongoose.Schema({
         recquired:true
     },
     postCategory:{
-        type: String,
+        type: Number,
         required:true
     }
 
